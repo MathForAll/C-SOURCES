@@ -17,11 +17,9 @@ int main(void)
     scanf("%lf", &alpha);
 
     /*
-
         Las funciones trigonometricas reciben unicamente valores
         en radianes, para pasar de grados decimales a radianes multiplicar
         por pi y dividir entre 180.
-    
     */
     alpha = alpha * M_PI / 180;
     A = sqrt(pow(B, 2) + pow(C, 2) - (2 * B * C * cos(alpha)));
