@@ -17,6 +17,7 @@ int main(void)
     delay(1000);
     printf(".");
     delay(3000);
+    
     do
     {
         clrscr(); 
