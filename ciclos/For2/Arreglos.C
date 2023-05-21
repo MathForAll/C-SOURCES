@@ -22,7 +22,7 @@ int main (void)
     for (i = 0; i < 10; ++i )
         printf("Numero %d \n", n[i]);
 
-    promedio = n[i] / 10
+    promedio = 
 
     printf("%f",promedio);
 
