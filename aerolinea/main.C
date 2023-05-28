@@ -44,8 +44,8 @@ char login(void)
     * password = QWERTY\0
     */
     char user[4] = {'M', 'F', 'A', '\0'};
-    /*char password[7] = {'Q', 'W', 'E', 'R', 'T', 'Y', '\0'};*/
-    char password[4] = {'1', '2', '3', '\0'};
+    char password[7] = {'Q', 'W', 'E', 'R', 'T', 'Y', '\0'};
+    /*char password[4] = {'1', '2', '3', '\0'};*/
     char user_i[15], password_i[7], aux = '';
     int trys = 3, i = 0;
 
@@ -68,6 +68,9 @@ char login(void)
         printf("Ingrese su contrase%ca: ", 164);
         /*scanf("%s", &password_i);*/
         /*no es seguro*/
+        
+        i = 0; 
+
         do
         {
             aux = getch();
@@ -83,6 +86,10 @@ char login(void)
 
         password_i[i] = '\0';
 
+        
+        printf("\n\n\n==>%s", password_i);
+        getch();
+
         /*printf("\n\n\n");
 
         printf("\nUsuario: %s", user);
@@ -91,7 +98,7 @@ char login(void)
         printf("\n===============================");
 
         printf("\nUsuario: %s", user_i);
-        printf("\nPassword: %s", password_i);*/
+        printf("\nPassword: %s", password_i[);*/
 
 
         if (strcmp(user, user_i) == 0)
