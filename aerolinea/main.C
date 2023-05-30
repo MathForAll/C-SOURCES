@@ -48,7 +48,7 @@ char login(void)
     /*char password[4] = {'1', '2', '3', '\0'};*/
     char user_i[15], password_i[7], aux = '';
     int trys = 3, i = 0;
-
+    
     do 
     {
         fflush(stdin);
