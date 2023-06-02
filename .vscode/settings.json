@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "funcion.C": "cpp",
+        "matriz.C": "cpp",
+        "asientos.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

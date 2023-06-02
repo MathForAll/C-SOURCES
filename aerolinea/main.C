@@ -9,11 +9,9 @@ char login(void);
 
 int main(void)
 {
-    char R_l =  '';
 
-	R_l = login();
 
-    if (R_l == 'T')
+    if (login() == 'T')
     {
         pantalla_carga();
 		printf("Bienvenido!!!");
@@ -130,4 +128,4 @@ char login(void)
     delay(5000);
 
     return 'F'; 
-}
+}
