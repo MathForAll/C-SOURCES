@@ -77,6 +77,8 @@ int main(void)
 void carga(void)
 {
     /* IMPRIME AEROUNI EN AZUL*/
+    textcolor(BLUE);
+    clrscr();
 
     printf("           ______ _____   ____  _    _ _   _ _____ \n");
     printf("     /\\   |  ____|  __ \\ / __ \\| |  | | \\ | |_   _|\n");
@@ -99,5 +101,6 @@ void carga(void)
                                                                       
     delay(10000);
 
+    textcolor(WHITE);
     clrscr();
 }
